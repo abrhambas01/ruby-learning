@@ -7,4 +7,4 @@ x+y
 =end
 
 # single line coment
-print "Comments are done here"
+print "Comments are explained already here"

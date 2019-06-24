@@ -8,7 +8,7 @@ puts "#{ruby}"
 puts "1 + 2 = #{ 1 + 2 }"
 
 string_ruby = "lorem ipsum dolor."
-
+	
 puts "the string to be displayed is :#{string_ruby}"
 # returns the first character 
 puts "the first character: #{string_ruby[0]}"

@@ -1,5 +1,8 @@
 x = 6 
 
+# if x is greater than 5 
+# then add a 1 or increment by 1	
+
 if x > 5
 	x += 1 
 end 
@@ -21,7 +24,7 @@ end
 level = "Novice"
 
 if (level == "Novice")
-	puts "Your points is just below < 100 because you are just a #{level}"
+	puts "Your points is below < 100 because you are just a #{level}"
 elsif (level == "Intermediate")
 	puts "Your points is between 100 and 500pt"
 end
@@ -38,7 +41,11 @@ end
 
 
 score = 80
+
+puts "Your score is :#{score}"
+
 case score
+
 when 1..39
 	puts "Failed"
 when 40..50
@@ -51,3 +58,15 @@ else
 	puts "It's not a score"
 end
 
+
+# less than -1, equal 0, or greater than 1
+puts "5 <=> 10 = #{5 <=> 10}"
+puts "5 <=> 5 = " + (5 <=> 5).to_s
+puts "10 <=> 5 = #{(10 <=> 5)}"
+# unless
+age = 12
+unless age > 4
+  puts "No School"
+else
+  puts "Go To School"
+end
