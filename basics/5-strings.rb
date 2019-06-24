@@ -1,3 +1,4 @@
+puts "Strings are attached.."
 puts 'single line quoted'
 puts "double line quoted string"
 
