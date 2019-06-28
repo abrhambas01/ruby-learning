@@ -18,5 +18,5 @@ if (nullValue.nil?)
 	print "Null value"
 end
 
-
+ 	
 

@@ -1,8 +1,8 @@
-current_status = :UNEMPLOYED
+current_status = :IDLE
 
-puts "UNEMPLOYED Status is active" if current_status == :UNEMPLOYED 
+puts "IDLE Status is active" if current_status == :IDLE 
 
-puts "PANIC!" if current_status == :FIRED
+puts "PANIC!" if current_status == :UNSTABLE
 
 current_situation = "good"
 

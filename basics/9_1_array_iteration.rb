@@ -22,6 +22,7 @@ end
 # you can iterate over nested arrays  :
 
 prices = [[130.50, 300.20],[400.30,200.30,410.50],[200.30,350.00]]
+
 prices.each do |a , b|
 	puts "First Price : #{a.to_f} , Second Price :#{b.to_f}"
 end
@@ -36,18 +37,5 @@ values.each_with_index do |element, index|
 	puts "Element Number: #{element}, Index : #{index}"
 end
 
-# Filtering with Select
-# Selecting items that are greater than 5
-arr = [5, 2, 4, 7, 9].select{|item| item > 5} # => [7, 9]
-puts arr 
-
-# reject 
-# Returns a new array containing the items in self for which the given block is not true. The ordering of non-rejected elements is maintained.
-# The array may not be changed instantly every time the block is called.
-
-
-deals = [200, 300, 400,300,1000]
-finalDeals = deals.reject{ |item| item > 390}
-puts finalDeals 
 
 
