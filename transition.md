@@ -1,10 +1,10 @@
 Similarities
 As in PHP, in Ruby…
 
-Ruby is dynamically typed, like in PHP, so you don’t need to worry about having to declare variables.
-There are classes, and you can control access to them like in PHP 5 (public, protected and private).
-Some variables start with $, like in PHP (but not all).
-There’s eval, too.
+> Ruby is dynamically typed, like in PHP, so you don’t need to worry about having to declare variables.
+> There are classes, and you can control access to them like in PHP 5 (public, protected and private).
+> Some variables start with $, like in PHP (but not all).
+> There’s eval, too.
 You can use string interpolation. Instead of doing "$foo is a $bar", you can do "#{foo} is a #{bar}"—like in PHP, this doesn’t apply for single-quoted strings.
 There’s heredocs.
 Ruby has exceptions, like PHP 5.
